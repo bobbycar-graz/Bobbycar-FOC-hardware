@@ -58,17 +58,6 @@ F 3 "~" H 2250 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03_Male J4
-U 1 1 5F75243E
-P 4500 900
-F 0 "J4" H 4608 1089 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 4608 1090 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4500 900 50  0001 C CNN
-F 3 "~" H 4500 900 50  0001 C CNN
-	1    4500 900 
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+VSW #PWR0149
 U 1 1 5F758B80
 P 2750 1750
@@ -468,22 +457,11 @@ Wire Wire Line
 	3350 3900 3350 4300
 Wire Wire Line
 	3350 4300 3300 4300
-$Comp
-L power:GND #PWR0158
-U 1 1 5F7A90CE
-P 5300 900
-F 0 "#PWR0158" H 5300 650 50  0001 C CNN
-F 1 "GND" H 5305 727 50  0000 C CNN
-F 2 "" H 5300 900 50  0001 C CNN
-F 3 "" H 5300 900 50  0001 C CNN
-	1    5300 900 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	4700 900  5300 900 
-Text HLabel 4700 800  2    50   BiDi ~ 0
+	4750 1150 5600 1150
+Text HLabel 4800 1050 2    50   BiDi ~ 0
 MCU_SWDIO
-Text HLabel 4700 1000 2    50   Output ~ 0
+Text HLabel 4800 1250 2    50   Output ~ 0
 MCU_SWCLK
 Text HLabel 3150 1150 2    50   Input ~ 0
 UART_L_TX
@@ -726,4 +704,47 @@ Wire Wire Line
 Wire Wire Line
 	2450 6050 3250 6050
 Connection ~ 2750 6700
+$Comp
+L Connector:Conn_01x04_Male J4
+U 1 1 5F883EAC
+P 4550 1150
+F 0 "J4" H 4658 1431 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 4658 1340 50  0000 C CNN
+F 2 "" H 4550 1150 50  0001 C CNN
+F 3 "~" H 4550 1150 50  0001 C CNN
+	1    4550 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 1050 4750 1050
+Wire Wire Line
+	4800 1250 4750 1250
+$Comp
+L power:+3.3V #PWR01
+U 1 1 5F88E1AC
+P 5400 900
+F 0 "#PWR01" H 5400 750 50  0001 C CNN
+F 1 "+3.3V" H 5415 1073 50  0000 C CNN
+F 2 "" H 5400 900 50  0001 C CNN
+F 3 "" H 5400 900 50  0001 C CNN
+	1    5400 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 900  5400 1350
+Wire Wire Line
+	4750 1350 5400 1350
+Wire Wire Line
+	5600 1150 5600 1200
+$Comp
+L power:GND #PWR0158
+U 1 1 5F7A90CE
+P 5600 1200
+F 0 "#PWR0158" H 5600 950 50  0001 C CNN
+F 1 "GND" H 5605 1027 50  0000 C CNN
+F 2 "" H 5600 1200 50  0001 C CNN
+F 3 "" H 5600 1200 50  0001 C CNN
+	1    5600 1200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
