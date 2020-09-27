@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 13
+Sheet 5 14
 Title ""
 Date ""
 Rev ""
@@ -525,4 +525,205 @@ $EndComp
 Wire Wire Line
 	2700 4400 2850 4400
 Connection ~ 2700 4400
+$Comp
+L Connector_Generic:Conn_01x05 J?
+U 1 1 5F78B096
+P 2250 5850
+F 0 "J?" H 2168 6267 50  0000 C CNN
+F 1 "Conn_01x05" H 2168 6176 50  0000 C CNN
+F 2 "" H 2250 5850 50  0001 C CNN
+F 3 "~" H 2250 5850 50  0001 C CNN
+	1    2250 5850
+	-1   0    0    -1  
+$EndComp
+Text HLabel 3800 5650 2    50   BiDi ~ 0
+CANH
+Wire Wire Line
+	2450 5650 2650 5650
+Text HLabel 3800 5750 2    50   BiDi ~ 0
+CANL
+Wire Wire Line
+	2450 5750 3450 5750
+$Comp
+L Device:D_TVS_x2_AAC D?
+U 1 1 5F79E74D
+P 3050 5200
+F 0 "D?" H 3050 5417 50  0000 C CNN
+F 1 "D_TVS_x2_AAC" H 3050 5326 50  0000 C CNN
+F 2 "" H 2900 5200 50  0001 C CNN
+F 3 "~" H 2900 5200 50  0001 C CNN
+	1    3050 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 5200 2650 5200
+Wire Wire Line
+	2650 5200 2650 5650
+Wire Wire Line
+	3400 5200 3450 5200
+Wire Wire Line
+	3450 5200 3450 5750
+$Comp
+L power:GND #PWR?
+U 1 1 5F7A3138
+P 3050 5400
+F 0 "#PWR?" H 3050 5150 50  0001 C CNN
+F 1 "GND" H 3055 5227 50  0000 C CNN
+F 2 "" H 3050 5400 50  0001 C CNN
+F 3 "" H 3050 5400 50  0001 C CNN
+	1    3050 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 5350 3050 5400
+Wire Wire Line
+	4350 5950 4350 5800
+$Comp
+L power:+VSW #PWR?
+U 1 1 5F7A9210
+P 4350 5450
+F 0 "#PWR?" H 4350 5300 50  0001 C CNN
+F 1 "+VSW" H 4365 5623 50  0000 C CNN
+F 2 "" H 4350 5450 50  0001 C CNN
+F 3 "" H 4350 5450 50  0001 C CNN
+	1    4350 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 5450 4350 5500
+$Comp
+L Device:D_Schottky D?
+U 1 1 5F7AAFC5
+P 4350 5650
+F 0 "D?" V 4396 5570 50  0000 R CNN
+F 1 "D_Schottky" V 4305 5570 50  0000 R CNN
+F 2 "" H 4350 5650 50  0001 C CNN
+F 3 "~" H 4350 5650 50  0001 C CNN
+	1    4350 5650
+	0    -1   -1   0   
+$EndComp
+Text Notes 2150 5700 2    50   ~ 0
+CANH
+Text Notes 2150 5800 2    50   ~ 0
+CANL
+Text Notes 2150 5900 2    50   ~ 0
+CAN_GND
+Text Notes 2150 6000 2    50   ~ 0
+VBUS
+Text Notes 2150 6100 2    50   ~ 0
+CAN_SHLD
+$Comp
+L Device:D_Zener D?
+U 1 1 5F7DDDAC
+P 4350 6300
+F 0 "D?" V 4304 6380 50  0000 L CNN
+F 1 "TVS" V 4395 6380 50  0000 L CNN
+F 2 "" H 4350 6300 50  0001 C CNN
+F 3 "~" H 4350 6300 50  0001 C CNN
+	1    4350 6300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 5950 4350 6150
+Connection ~ 4350 5950
+Wire Wire Line
+	4350 6450 4350 6700
+Wire Wire Line
+	2750 6700 2750 6750
+$Comp
+L power:GND #PWR?
+U 1 1 5F7A7150
+P 2750 6750
+F 0 "#PWR?" H 2750 6500 50  0001 C CNN
+F 1 "GND" H 2755 6577 50  0000 C CNN
+F 2 "" H 2750 6750 50  0001 C CNN
+F 3 "" H 2750 6750 50  0001 C CNN
+	1    2750 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F7C92D2
+P 3950 6300
+F 0 "C?" H 4065 6346 50  0000 L CNN
+F 1 "1u" H 4065 6255 50  0000 L CNN
+F 2 "" H 3988 6150 50  0001 C CNN
+F 3 "~" H 3950 6300 50  0001 C CNN
+	1    3950 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 6450 3950 6700
+Wire Wire Line
+	3950 5950 3950 6150
+Wire Wire Line
+	2450 5950 3950 5950
+Connection ~ 3250 6700
+Wire Wire Line
+	3250 6700 3950 6700
+Wire Wire Line
+	2450 5850 2750 5850
+Wire Wire Line
+	2750 6700 3250 6700
+Connection ~ 3950 5950
+Wire Wire Line
+	3950 5950 4350 5950
+Connection ~ 3950 6700
+Wire Wire Line
+	3950 6700 4350 6700
+Connection ~ 2650 5650
+Connection ~ 3450 5750
+Wire Wire Line
+	2650 5650 3800 5650
+Wire Wire Line
+	3450 5750 3800 5750
+Wire Wire Line
+	3050 6500 3050 6550
+Wire Wire Line
+	3050 6150 3050 6200
+$Comp
+L Device:R R?
+U 1 1 5F7B4004
+P 3050 6350
+F 0 "R?" H 3120 6396 50  0000 L CNN
+F 1 "1M" H 3120 6305 50  0000 L CNN
+F 2 "" V 2980 6350 50  0001 C CNN
+F 3 "~" H 3050 6350 50  0001 C CNN
+	1    3050 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 6050 3250 6150
+Connection ~ 3250 6150
+$Comp
+L Device:C C?
+U 1 1 5F7B7D0B
+P 3450 6350
+F 0 "C?" H 3565 6396 50  0000 L CNN
+F 1 "4.7n" H 3565 6305 50  0000 L CNN
+F 2 "" H 3488 6200 50  0001 C CNN
+F 3 "~" H 3450 6350 50  0001 C CNN
+	1    3450 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 6150 3250 6150
+Wire Wire Line
+	3450 6150 3450 6200
+Wire Wire Line
+	3250 6150 3450 6150
+Wire Wire Line
+	3050 6550 3250 6550
+Wire Wire Line
+	3450 6550 3450 6500
+Wire Wire Line
+	3250 6550 3250 6700
+Connection ~ 3250 6550
+Wire Wire Line
+	3250 6550 3450 6550
+Wire Wire Line
+	2750 5850 2750 6700
+Wire Wire Line
+	2450 6050 3250 6050
+Connection ~ 2750 6700
 $EndSCHEMATC

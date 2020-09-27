@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 13
+Sheet 4 14
 Title ""
 Date ""
 Rev ""
@@ -690,8 +690,6 @@ NoConn ~ 4950 4900
 NoConn ~ 4950 5300
 NoConn ~ 4950 5400
 NoConn ~ 4950 5500
-NoConn ~ 6350 4900
-NoConn ~ 6350 4800
 NoConn ~ 6350 4400
 NoConn ~ 6350 4300
 NoConn ~ 6350 3800
@@ -755,4 +753,8 @@ NoConn ~ 4950 2500
 NoConn ~ 6350 3500
 Text HLabel 6350 2800 2    50   Output ~ 0
 SUPPLY_EN_MCU
+Text HLabel 6350 4800 2    50   Input ~ 0
+CAN_RX
+Text HLabel 6350 4900 2    50   Output ~ 0
+CAN_TX
 $EndSCHEMATC
