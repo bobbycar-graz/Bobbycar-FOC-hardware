@@ -287,8 +287,6 @@ Wire Wire Line
 	1400 6900 1550 6900
 Wire Wire Line
 	1550 7050 1400 7050
-Text GLabel 8900 700  0    50   Input ~ 0
-L_MTR_PHA
 Text GLabel 8850 850  0    50   Input ~ 0
 L_MTR_PHB
 Text GLabel 8800 1000 0    50   Input ~ 0
@@ -381,8 +379,6 @@ Wire Wire Line
 Wire Wire Line
 	8100 1250 7700 1250
 Connection ~ 8100 1800
-Text GLabel 8900 4250 0    50   Input ~ 0
-R_MTR_PHA
 Text GLabel 8850 4400 0    50   Input ~ 0
 R_MTR_PHB
 Text GLabel 8800 4550 0    50   Input ~ 0
@@ -483,21 +479,6 @@ Wire Wire Line
 Connection ~ 8100 5850
 Wire Wire Line
 	8100 5850 8100 6050
-$Comp
-L power:GND #PWR0103
-U 1 1 5F70BA8E
-P 3000 4650
-F 0 "#PWR0103" H 3000 4400 50  0001 C CNN
-F 1 "GND" H 3005 4477 50  0000 C CNN
-F 2 "" H 3000 4650 50  0001 C CNN
-F 3 "" H 3000 4650 50  0001 C CNN
-	1    3000 4650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3150 4550 3000 4550
-Wire Wire Line
-	3000 4550 3000 4650
 $Comp
 L power:+BATT #PWR0195
 U 1 1 5F7AB0B8
@@ -721,4 +702,9 @@ F 3 "~" H 10500 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 NoConn ~ 3150 4450
+NoConn ~ 3150 4550
+Text Label 8900 4250 2    50   ~ 0
+R_MTR_PHA
+Text Label 8900 700  2    50   ~ 0
+L_MTR_PHA
 $EndSCHEMATC
