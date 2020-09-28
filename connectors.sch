@@ -47,17 +47,6 @@ F 3 "~" H 2250 4500 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x04_Male J10
-U 1 1 5F750DE0
-P 2250 5400
-F 0 "J10" H 2358 5589 50  0000 C CNN
-F 1 " UART_R1" H 2358 5590 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2250 5400 50  0001 C CNN
-F 3 "~" H 2250 5400 50  0001 C CNN
-	1    2250 5400
-	1    0    0    1   
-$EndComp
-$Comp
 L power:+VSW #PWR0149
 U 1 1 5F758B80
 P 2700 1250
@@ -330,12 +319,12 @@ Connection ~ 2550 4150
 $Comp
 L power:GND #PWR0153
 U 1 1 5F7999C9
-P 1600 4500
-F 0 "#PWR0153" H 1600 4250 50  0001 C CNN
-F 1 "GND" H 1605 4327 50  0000 C CNN
-F 2 "" H 1600 4500 50  0001 C CNN
-F 3 "" H 1600 4500 50  0001 C CNN
-	1    1600 4500
+P 1600 4550
+F 0 "#PWR0153" H 1600 4300 50  0001 C CNN
+F 1 "GND" H 1605 4377 50  0000 C CNN
+F 2 "" H 1600 4550 50  0001 C CNN
+F 3 "" H 1600 4550 50  0001 C CNN
+	1    1600 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -372,64 +361,6 @@ F 3 "" H 2450 4700 50  0001 C CNN
 	1    2450 4700
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+VSW #PWR0156
-U 1 1 5F79AEC1
-P 2700 5200
-F 0 "#PWR0156" H 2700 5050 50  0001 C CNN
-F 1 "+VSW" H 2715 5373 50  0000 C CNN
-F 2 "" H 2700 5200 50  0001 C CNN
-F 3 "" H 2700 5200 50  0001 C CNN
-	1    2700 5200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2700 5200 2450 5200
-$Comp
-L power:GND #PWR0157
-U 1 1 5F79BFBF
-P 2700 5500
-F 0 "#PWR0157" H 2700 5250 50  0001 C CNN
-F 1 "GND" H 2705 5327 50  0000 C CNN
-F 2 "" H 2700 5500 50  0001 C CNN
-F 3 "" H 2700 5500 50  0001 C CNN
-	1    2700 5500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2700 5500 2450 5500
-$Comp
-L Device:R R35
-U 1 1 5F79D104
-P 2850 5300
-F 0 "R35" V 2643 5300 50  0000 C CNN
-F 1 "100" V 2734 5300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2780 5300 50  0001 C CNN
-F 3 "~" H 2850 5300 50  0001 C CNN
-	1    2850 5300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R37
-U 1 1 5F79D714
-P 3150 5400
-F 0 "R37" V 2943 5400 50  0000 C CNN
-F 1 "100" V 3034 5400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 5400 50  0001 C CNN
-F 3 "~" H 3150 5400 50  0001 C CNN
-	1    3150 5400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2700 5300 2450 5300
-Wire Wire Line
-	3000 5400 2450 5400
-Wire Wire Line
-	3000 4850 3000 5300
-Wire Wire Line
-	3350 5000 3350 5400
-Wire Wire Line
-	3350 5400 3300 5400
 Wire Wire Line
 	4750 1150 5600 1150
 Text HLabel 4800 1050 2    50   BiDi ~ 0
@@ -440,10 +371,6 @@ Text HLabel 3100 650  2    50   Input ~ 0
 UART_L_TX
 Text HLabel 3350 900  2    50   Output ~ 0
 UART_L_RX
-Text HLabel 3000 4850 2    50   Input ~ 0
-UART_R_TX
-Text HLabel 3350 5000 2    50   Output ~ 0
-UART_R_RX
 Text HLabel 4700 2600 2    50   Output ~ 0
 L_MTR_HALL_PHC
 Text HLabel 4700 2700 2    50   Output ~ 0
@@ -947,4 +874,153 @@ Wire Wire Line
 Connection ~ 3500 2800
 Wire Wire Line
 	3500 2800 3600 2800
+Wire Wire Line
+	1600 4550 1600 4500
+Text HLabel 3000 4850 2    50   Input ~ 0
+UART_R_TX
+Text HLabel 3350 5000 2    50   Output ~ 0
+UART_R_RX
+Wire Wire Line
+	3350 5400 3300 5400
+Wire Wire Line
+	3350 5000 3350 5400
+Wire Wire Line
+	3000 4850 3000 5300
+Wire Wire Line
+	3000 5400 2450 5400
+Wire Wire Line
+	2700 5300 2450 5300
+$Comp
+L Device:R R37
+U 1 1 5F79D714
+P 3150 5400
+F 0 "R37" V 2943 5400 50  0000 C CNN
+F 1 "100" V 3034 5400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 5400 50  0001 C CNN
+F 3 "~" H 3150 5400 50  0001 C CNN
+	1    3150 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R35
+U 1 1 5F79D104
+P 2850 5300
+F 0 "R35" V 2643 5300 50  0000 C CNN
+F 1 "100" V 2734 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2780 5300 50  0001 C CNN
+F 3 "~" H 2850 5300 50  0001 C CNN
+	1    2850 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2700 5500 2450 5500
+$Comp
+L power:GND #PWR0157
+U 1 1 5F79BFBF
+P 2700 5500
+F 0 "#PWR0157" H 2700 5250 50  0001 C CNN
+F 1 "GND" H 2705 5327 50  0000 C CNN
+F 2 "" H 2700 5500 50  0001 C CNN
+F 3 "" H 2700 5500 50  0001 C CNN
+	1    2700 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 5200 2450 5200
+$Comp
+L power:+VSW #PWR0156
+U 1 1 5F79AEC1
+P 2700 5200
+F 0 "#PWR0156" H 2700 5050 50  0001 C CNN
+F 1 "+VSW" H 2715 5373 50  0000 C CNN
+F 2 "" H 2700 5200 50  0001 C CNN
+F 3 "" H 2700 5200 50  0001 C CNN
+	1    2700 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J10
+U 1 1 5F750DE0
+P 2250 5400
+F 0 "J10" H 2358 5589 50  0000 C CNN
+F 1 " UART_R1" H 2358 5590 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2250 5400 50  0001 C CNN
+F 3 "~" H 2250 5400 50  0001 C CNN
+	1    2250 5400
+	1    0    0    1   
+$EndComp
+$Comp
+L Power_Protection:SRV05-4 U?
+U 1 1 5F9B9AE8
+P 1300 2750
+F 0 "U?" H 1300 3431 50  0000 C CNN
+F 1 "SRV05-4" H 1300 3340 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 2000 2300 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" H 1300 2750 50  0001 C CNN
+	1    1300 2750
+	1    0    0    -1  
+$EndComp
+Text Label 2450 2600 0    50   ~ 0
+Hall_L_1
+Text Label 2450 2700 0    50   ~ 0
+Hall_L_2
+Text Label 2450 2800 0    50   ~ 0
+Hall_L_3
+Text Label 1800 2850 0    50   ~ 0
+Hall_L_3
+Text Label 1800 2650 0    50   ~ 0
+Hall_L_2
+Text Label 800  2650 2    50   ~ 0
+Hall_L_1
+$Comp
+L power:GND #PWR?
+U 1 1 5F9C9519
+P 1300 3250
+F 0 "#PWR?" H 1300 3000 50  0001 C CNN
+F 1 "GND" H 1305 3077 50  0000 C CNN
+F 2 "" H 1300 3250 50  0001 C CNN
+F 3 "" H 1300 3250 50  0001 C CNN
+	1    1300 3250
+	1    0    0    -1  
+$EndComp
+Text Label 2550 3150 0    50   ~ 0
+Hall_VCC
+Text Label 1300 2250 0    50   ~ 0
+Hall_VCC
+$Comp
+L Power_Protection:SRV05-4 U?
+U 1 1 5F9CA42C
+P 1350 5650
+F 0 "U?" H 1350 6331 50  0000 C CNN
+F 1 "SRV05-4" H 1350 6240 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 2050 5200 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" H 1350 5650 50  0001 C CNN
+	1    1350 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F9CA436
+P 1350 6150
+F 0 "#PWR?" H 1350 5900 50  0001 C CNN
+F 1 "GND" H 1355 5977 50  0000 C CNN
+F 2 "" H 1350 6150 50  0001 C CNN
+F 3 "" H 1350 6150 50  0001 C CNN
+	1    1350 6150
+	1    0    0    -1  
+$EndComp
+Text Label 1350 5150 0    50   ~ 0
+Hall_VCC
+Text Label 2450 4400 0    50   ~ 0
+Hall_R_1
+Text Label 2450 4500 0    50   ~ 0
+Hall_R_2
+Text Label 2450 4600 0    50   ~ 0
+Hall_R_3
+Text Label 1850 5550 0    50   ~ 0
+Hall_R_1
+Text Label 1850 5750 0    50   ~ 0
+Hall_R_2
+Text Label 850  5550 2    50   ~ 0
+Hall_R_3
 $EndSCHEMATC
