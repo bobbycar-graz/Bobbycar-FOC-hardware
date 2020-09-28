@@ -16,13 +16,13 @@ $EndDescr
 $Comp
 L Connector:Conn_01x04_Male J9
 U 1 1 5F74D721
-P 2200 1350
-F 0 "J9" H 2308 1539 50  0000 C CNN
-F 1 " UART_L1" H 2308 1540 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2200 1350 50  0001 C CNN
-F 3 "~" H 2200 1350 50  0001 C CNN
-	1    2200 1350
-	1    0    0    -1  
+P 2200 1450
+F 0 "J9" H 2308 1639 50  0000 C CNN
+F 1 " UART_L1" H 2308 1640 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2200 1450 50  0001 C CNN
+F 3 "~" H 2200 1450 50  0001 C CNN
+	1    2200 1450
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x05_Male HALL_L1
@@ -44,18 +44,18 @@ F 1 "Conn_01x05_Male" H 2358 4790 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2250 4500 50  0001 C CNN
 F 3 "~" H 2250 4500 50  0001 C CNN
 	1    2250 4500
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x04_Male J10
 U 1 1 5F750DE0
-P 2250 5300
-F 0 "J10" H 2358 5489 50  0000 C CNN
-F 1 " UART_R1" H 2358 5490 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2250 5300 50  0001 C CNN
-F 3 "~" H 2250 5300 50  0001 C CNN
-	1    2250 5300
-	1    0    0    -1  
+P 2250 5400
+F 0 "J10" H 2358 5589 50  0000 C CNN
+F 1 " UART_R1" H 2358 5590 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2250 5400 50  0001 C CNN
+F 3 "~" H 2250 5400 50  0001 C CNN
+	1    2250 5400
+	1    0    0    1   
 $EndComp
 $Comp
 L power:+VSW #PWR0149

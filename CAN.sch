@@ -60,8 +60,6 @@ Wire Wire Line
 	4550 2700 4550 2750
 Wire Wire Line
 	4550 3000 4650 3000
-Wire Wire Line
-	4650 3000 4650 3150
 $Comp
 L power:+5V #PWR0229
 U 1 1 5F74B31E
@@ -77,8 +75,6 @@ Wire Wire Line
 	4900 2450 4900 2750
 Wire Wire Line
 	4900 3000 4750 3000
-Wire Wire Line
-	4750 3000 4750 3150
 $Comp
 L Device:C C43
 U 1 1 5F74BE20
@@ -97,13 +93,8 @@ Wire Wire Line
 	4550 2750 4550 3000
 Wire Wire Line
 	4200 3100 4200 3150
-Connection ~ 4650 3150
-Wire Wire Line
-	4650 3150 4650 3200
 Wire Wire Line
 	4200 2750 4550 2750
-Wire Wire Line
-	4200 3150 4650 3150
 $Comp
 L Device:C C44
 U 1 1 5F751476
@@ -124,11 +115,6 @@ Wire Wire Line
 Connection ~ 4900 2750
 Wire Wire Line
 	4900 2750 4900 3000
-Wire Wire Line
-	5150 3150 4750 3150
-Connection ~ 4750 3150
-Wire Wire Line
-	4750 3150 4750 3200
 Wire Wire Line
 	4250 3400 4100 3400
 Wire Wire Line
@@ -308,4 +294,30 @@ Wire Wire Line
 	7600 3500 7950 3500
 Wire Wire Line
 	7600 3700 7950 3700
+Wire Wire Line
+	4650 3000 4650 3200
+Wire Wire Line
+	4750 3000 4750 3200
+$Comp
+L power:GND #PWR0222
+U 1 1 5F7D2541
+P 4200 3150
+F 0 "#PWR0222" H 4200 2900 50  0001 C CNN
+F 1 "GND" H 4205 2977 50  0000 C CNN
+F 2 "" H 4200 3150 50  0001 C CNN
+F 3 "" H 4200 3150 50  0001 C CNN
+	1    4200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0223
+U 1 1 5F7D2882
+P 5150 3150
+F 0 "#PWR0223" H 5150 2900 50  0001 C CNN
+F 1 "GND" H 5155 2977 50  0000 C CNN
+F 2 "" H 5150 3150 50  0001 C CNN
+F 3 "" H 5150 3150 50  0001 C CNN
+	1    5150 3150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
