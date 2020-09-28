@@ -737,4 +737,48 @@ Wire Wire Line
 	1400 5750 1400 4950
 Wire Wire Line
 	1400 4950 1550 4950
+$Comp
+L Connector_Generic:Conn_01x01 J11
+U 1 1 5F8ED7E9
+P 10400 900
+F 0 "J11" H 10480 942 50  0000 L CNN
+F 1 "Conn_01x01" H 10480 851 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad_Via" H 10400 900 50  0001 C CNN
+F 3 "~" H 10400 900 50  0001 C CNN
+	1    10400 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5F8F0C04
+P 10400 1050
+F 0 "J?" H 10480 1092 50  0000 L CNN
+F 1 "Conn_01x01" H 10480 1001 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad_Via" H 10400 1050 50  0001 C CNN
+F 3 "~" H 10400 1050 50  0001 C CNN
+	1    10400 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5F8F0EB7
+P 10400 1200
+F 0 "J?" H 10480 1242 50  0000 L CNN
+F 1 "Conn_01x01" H 10480 1151 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad_Via" H 10400 1200 50  0001 C CNN
+F 3 "~" H 10400 1200 50  0001 C CNN
+	1    10400 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5F8F1012
+P 10400 1350
+F 0 "J?" H 10480 1392 50  0000 L CNN
+F 1 "Conn_01x01" H 10480 1301 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad_Via" H 10400 1350 50  0001 C CNN
+F 3 "~" H 10400 1350 50  0001 C CNN
+	1    10400 1350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -191,21 +191,15 @@ F 3 "~" H 4450 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2450 2600 2900 2600
-Wire Wire Line
 	4050 2700 3250 2700
 Wire Wire Line
-	2450 2800 3600 2800
+	2450 2800 3500 2800
 Wire Wire Line
 	2900 2550 2900 2600
 Connection ~ 2900 2600
 Wire Wire Line
-	2900 2600 3800 2600
-Wire Wire Line
 	3250 2550 3250 2700
 Connection ~ 3250 2700
-Wire Wire Line
-	3250 2700 2450 2700
 Wire Wire Line
 	3600 2550 3600 2800
 Connection ~ 3600 2800
@@ -289,21 +283,17 @@ F 3 "~" H 4450 4600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2450 4400 2900 4400
+	2450 4400 2800 4400
 Wire Wire Line
 	4050 4500 3250 4500
-Wire Wire Line
-	2450 4600 3600 4600
 Wire Wire Line
 	2900 4350 2900 4400
 Connection ~ 2900 4400
 Wire Wire Line
-	2900 4400 3800 4400
-Wire Wire Line
 	3250 4350 3250 4500
 Connection ~ 3250 4500
 Wire Wire Line
-	3250 4500 2450 4500
+	3250 4500 3150 4500
 Wire Wire Line
 	3600 4350 3600 4600
 Connection ~ 3600 4600
@@ -767,10 +757,10 @@ F 3 "~" H 3600 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2900 1950 3250 1950
+	2900 1950 3150 1950
 Connection ~ 3250 1950
 Wire Wire Line
-	3250 1950 3600 1950
+	3250 1950 3500 1950
 Wire Wire Line
 	3250 1850 3250 1950
 Wire Wire Line
@@ -815,10 +805,146 @@ F 3 "~" H 3600 3900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2900 3750 3250 3750
+	2900 3750 3150 3750
 Connection ~ 3250 3750
 Wire Wire Line
-	3250 3750 3600 3750
+	3250 3750 3500 3750
 Wire Wire Line
 	3250 3500 3250 3750
+$Comp
+L Device:R R16L3
+U 1 1 5F8901AA
+P 2800 2400
+F 0 "R16L3" H 2870 2446 50  0000 L CNN
+F 1 "2K2" H 2870 2355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2730 2400 50  0001 C CNN
+F 3 "~" H 2800 2400 50  0001 C CNN
+	1    2800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R17L3
+U 1 1 5F890945
+P 3150 2400
+F 0 "R17L3" H 3220 2446 50  0000 L CNN
+F 1 "2K2" H 3220 2355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 2400 50  0001 C CNN
+F 3 "~" H 3150 2400 50  0001 C CNN
+	1    3150 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R18L3
+U 1 1 5F890B23
+P 3500 2400
+F 0 "R18L3" H 3570 2446 50  0000 L CNN
+F 1 "2K2" H 3570 2355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3430 2400 50  0001 C CNN
+F 3 "~" H 3500 2400 50  0001 C CNN
+	1    3500 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2600 2800 2600
+Wire Wire Line
+	2800 2550 2800 2600
+Connection ~ 2800 2600
+Wire Wire Line
+	2800 2600 2900 2600
+Wire Wire Line
+	3500 2250 3500 1950
+Connection ~ 3500 1950
+Wire Wire Line
+	3500 1950 3600 1950
+Wire Wire Line
+	3150 2250 3150 1950
+Connection ~ 3150 1950
+Wire Wire Line
+	3150 1950 3250 1950
+Wire Wire Line
+	2800 2250 2800 1950
+Wire Wire Line
+	2800 1950 2900 1950
+Connection ~ 2900 1950
+$Comp
+L Device:R R16L4
+U 1 1 5F8A0AE7
+P 2800 4200
+F 0 "R16L4" H 2870 4246 50  0000 L CNN
+F 1 "2K2" H 2870 4155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2730 4200 50  0001 C CNN
+F 3 "~" H 2800 4200 50  0001 C CNN
+	1    2800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R17L4
+U 1 1 5F8A0C56
+P 3150 4200
+F 0 "R17L4" H 3220 4246 50  0000 L CNN
+F 1 "2K2" H 3220 4155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 4200 50  0001 C CNN
+F 3 "~" H 3150 4200 50  0001 C CNN
+	1    3150 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R18L4
+U 1 1 5F8A0DC6
+P 3500 4200
+F 0 "R18L4" H 3570 4246 50  0000 L CNN
+F 1 "2K2" H 3570 4155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3430 4200 50  0001 C CNN
+F 3 "~" H 3500 4200 50  0001 C CNN
+	1    3500 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4350 2800 4400
+Connection ~ 2800 4400
+Wire Wire Line
+	2800 4400 2900 4400
+Wire Wire Line
+	3500 4050 3500 3750
+Connection ~ 3500 3750
+Wire Wire Line
+	3500 3750 3600 3750
+Wire Wire Line
+	3150 4050 3150 3750
+Connection ~ 3150 3750
+Wire Wire Line
+	3150 3750 3250 3750
+Wire Wire Line
+	2800 4050 2800 3750
+Wire Wire Line
+	2800 3750 2900 3750
+Connection ~ 2900 3750
+Wire Wire Line
+	2900 4400 3800 4400
+Wire Wire Line
+	2450 4600 3500 4600
+Wire Wire Line
+	3150 4350 3150 4500
+Connection ~ 3150 4500
+Wire Wire Line
+	3150 4500 2450 4500
+Wire Wire Line
+	3500 4350 3500 4600
+Connection ~ 3500 4600
+Wire Wire Line
+	3500 4600 3600 4600
+Wire Wire Line
+	3250 2700 3150 2700
+Wire Wire Line
+	2900 2600 3800 2600
+Wire Wire Line
+	3150 2550 3150 2700
+Connection ~ 3150 2700
+Wire Wire Line
+	3150 2700 2450 2700
+Wire Wire Line
+	3500 2550 3500 2800
+Connection ~ 3500 2800
+Wire Wire Line
+	3500 2800 3600 2800
 $EndSCHEMATC
