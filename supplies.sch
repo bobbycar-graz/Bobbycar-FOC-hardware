@@ -601,9 +601,9 @@ F 3 "~" H 8750 1200 50  0001 C CNN
 	1    8750 1200
 	1    0    0    -1  
 $EndComp
-Connection ~ 8750 1200
 Wire Wire Line
 	8750 1200 8850 1450
 Wire Wire Line
 	5200 4000 5200 4200
+Connection ~ 8750 1200
 $EndSCHEMATC

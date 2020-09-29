@@ -738,47 +738,47 @@ Wire Wire Line
 Wire Wire Line
 	1400 4950 1550 4950
 $Comp
-L Connector_Generic:Conn_01x01 J11
+L Mechanical:MountingHole J11
 U 1 1 5F8ED7E9
-P 10400 900
-F 0 "J11" H 10480 942 50  0000 L CNN
-F 1 "Conn_01x01" H 10480 851 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4mm_Pad_Via" H 10400 900 50  0001 C CNN
-F 3 "~" H 10400 900 50  0001 C CNN
-	1    10400 900 
+P 10400 700
+F 0 "J11" H 10480 742 50  0000 L CNN
+F 1 "Conn_01x01" H 10480 651 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad_Via" H 10400 700 50  0001 C CNN
+F 3 "~" H 10400 700 50  0001 C CNN
+	1    10400 700 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J12
+L Mechanical:MountingHole J12
 U 1 1 5F8F0C04
-P 10400 1050
-F 0 "J12" H 10480 1092 50  0000 L CNN
-F 1 "Conn_01x01" H 10480 1001 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4mm_Pad_Via" H 10400 1050 50  0001 C CNN
-F 3 "~" H 10400 1050 50  0001 C CNN
-	1    10400 1050
+P 10400 850
+F 0 "J12" H 10480 892 50  0000 L CNN
+F 1 "Conn_01x01" H 10480 801 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad_Via" H 10400 850 50  0001 C CNN
+F 3 "~" H 10400 850 50  0001 C CNN
+	1    10400 850 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J13
+L Mechanical:MountingHole J13
 U 1 1 5F8F0EB7
-P 10400 1200
-F 0 "J13" H 10480 1242 50  0000 L CNN
-F 1 "Conn_01x01" H 10480 1151 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4mm_Pad_Via" H 10400 1200 50  0001 C CNN
-F 3 "~" H 10400 1200 50  0001 C CNN
-	1    10400 1200
+P 10400 1000
+F 0 "J13" H 10480 1042 50  0000 L CNN
+F 1 "Conn_01x01" H 10480 951 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad_Via" H 10400 1000 50  0001 C CNN
+F 3 "~" H 10400 1000 50  0001 C CNN
+	1    10400 1000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J14
+L Mechanical:MountingHole J14
 U 1 1 5F8F1012
-P 10400 1350
-F 0 "J14" H 10480 1392 50  0000 L CNN
-F 1 "Conn_01x01" H 10480 1301 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4mm_Pad_Via" H 10400 1350 50  0001 C CNN
-F 3 "~" H 10400 1350 50  0001 C CNN
-	1    10400 1350
+P 10400 1150
+F 0 "J14" H 10480 1192 50  0000 L CNN
+F 1 "Conn_01x01" H 10480 1101 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad_Via" H 10400 1150 50  0001 C CNN
+F 3 "~" H 10400 1150 50  0001 C CNN
+	1    10400 1150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -801,17 +801,6 @@ F 1 "GND" H 10555 2027 50  0000 C CNN
 F 2 "" H 10550 2200 50  0001 C CNN
 F 3 "" H 10550 2200 50  0001 C CNN
 	1    10550 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:Jumper_2_Bridged JP3
-U 1 1 5F8FED5A
-P 10350 2200
-F 0 "JP3" H 10350 2395 50  0000 C CNN
-F 1 "Jumper_2_Bridged" H 10350 2304 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm" H 10350 2200 50  0001 C CNN
-F 3 "~" H 10350 2200 50  0001 C CNN
-	1    10350 2200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1128,8 +1117,70 @@ F 3 "" H 9700 5950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 9700 5950
-NoConn ~ 10200 900 
-NoConn ~ 10200 1050
-NoConn ~ 10200 1200
-NoConn ~ 10200 1350
+$Comp
+L Device:Net-Tie_2 NT1
+U 1 1 5F73BECD
+P 10350 2100
+F 0 "NT1" H 10350 2281 50  0000 C CNN
+F 1 "Net-Tie_2" H 10350 2190 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 10350 2100 50  0001 C CNN
+F 3 "~" H 10350 2100 50  0001 C CNN
+	1    10350 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 2100 10150 2100
+Wire Wire Line
+	10150 2100 10150 2200
+Wire Wire Line
+	10450 2100 10550 2100
+Wire Wire Line
+	10550 2100 10550 2200
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 5F75A34A
+P 10750 1950
+F 0 "#FLG0105" H 10750 2025 50  0001 C CNN
+F 1 "PWR_FLAG" H 10750 2123 50  0000 C CNN
+F 2 "" H 10750 1950 50  0001 C CNN
+F 3 "~" H 10750 1950 50  0001 C CNN
+	1    10750 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 1950 10750 2100
+Wire Wire Line
+	10750 2100 10550 2100
+Connection ~ 10550 2100
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO1
+U 1 1 5F773897
+P 9800 1050
+F 0 "LOGO1" H 9800 1325 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 9800 825 50  0001 C CNN
+F 2 "Bobbycar-FOC-hardware:lenas_bobbycar_logo" H 9800 1050 50  0001 C CNN
+F 3 "~" H 9800 1050 50  0001 C CNN
+	1    9800 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Net-Tie_2 NT2
+U 1 1 5F7403BE
+P 10350 1800
+F 0 "NT2" H 10350 1981 50  0000 C CNN
+F 1 "Net-Tie_2" H 10350 1890 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 10350 1800 50  0001 C CNN
+F 3 "~" H 10350 1800 50  0001 C CNN
+	1    10350 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 1800 10150 1800
+Wire Wire Line
+	10150 1800 10150 2100
+Connection ~ 10150 2100
+Wire Wire Line
+	10450 1800 10550 1800
+Wire Wire Line
+	10550 1800 10550 2100
 $EndSCHEMATC
