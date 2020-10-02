@@ -505,7 +505,7 @@ F 3 "~" H 8450 4000 50  0001 C CNN
 	1    8450 4000
 	0    1    1    0   
 $EndComp
-Text Notes 5950 4100 1    50   ~ 0
+Text Notes 8350 4100 1    50   ~ 0
 beefy
 Wire Wire Line
 	7650 1300 7650 1450
