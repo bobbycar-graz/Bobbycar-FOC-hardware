@@ -246,34 +246,6 @@ F 3 "" H 5150 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power_Protection:NUP2105L D12
-U 1 1 601CE5F4
-P 7950 3600
-F 0 "D12" V 7608 3600 50  0000 C CNN
-F 1 "NUP2105L" V 7699 3600 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8175 3550 50  0001 L CNN
-F 3 "http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF" H 8075 3725 50  0001 C CNN
-	1    7950 3600
-	0    1    1    0   
-$EndComp
-Connection ~ 8150 3500
-Connection ~ 8150 3700
-$Comp
-L power:GND #PWR07
-U 1 1 601CF80D
-P 7700 4000
-F 0 "#PWR07" H 7700 3750 50  0001 C CNN
-F 1 "GND" H 7705 3827 50  0000 C CNN
-F 2 "" H 7700 4000 50  0001 C CNN
-F 3 "" H 7700 4000 50  0001 C CNN
-	1    7700 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7700 4000 7700 3600
-Wire Wire Line
-	7700 3600 7750 3600
-$Comp
 L Interface_CAN_LIN:TJA1051T-3 U7
 U 1 1 603E3A3E
 P 4750 3600
