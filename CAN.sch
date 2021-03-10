@@ -172,7 +172,8 @@ P 6650 3050
 F 0 "JP1" V 6604 3118 50  0000 L CNN
 F 1 "SolderJumper_2_Open" V 6695 3118 50  0000 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6650 3050 50  0001 C CNN
-F 3 "~" H 6650 3050 50  0001 C CNN
+F 3 "" H 6650 3050 50  0001 C CNN
+F 4 "dnp" H 6650 3050 50  0001 C CNN "place"
 	1    6650 3050
 	0    1    1    0   
 $EndComp
@@ -192,7 +193,8 @@ P 6650 4250
 F 0 "JP2" V 6604 4318 50  0000 L CNN
 F 1 "SolderJumper_2_Open" V 6695 4318 50  0000 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6650 4250 50  0001 C CNN
-F 3 "~" H 6650 4250 50  0001 C CNN
+F 3 "" H 6650 4250 50  0001 C CNN
+F 4 "dnp" H 6650 4250 50  0001 C CNN "place"
 	1    6650 4250
 	0    1    1    0   
 $EndComp
