@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Bobbycontroller)(type Legacy)(uri ${KIPRJMOD}/Bobbycontroller.lib)(options "")(descr ""))
+  (lib (name input-board)(type Legacy)(uri C:/Users/gernot.hehn/devel/bobbycar/input-board/input-board.lib)(options "")(descr ""))
 )

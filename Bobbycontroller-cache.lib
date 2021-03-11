@@ -107,6 +107,25 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Connector_Generic_Conn_01x02
+#
+DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Generic_Conn_01x05
 #
 DEF Connector_Generic_Conn_01x05 J 0 40 Y N 1 F N
@@ -838,6 +857,24 @@ P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
 X G 1 -200 0 100 R 50 50 1 1 I
 X D 2 100 200 100 D 50 50 1 1 P
 X S 3 100 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# input-board_CDSOD323-boardcomputer
+#
+DEF input-board_CDSOD323-boardcomputer D 0 40 Y Y 1 F N
+F0 "D" -50 -200 50 H V C CNN
+F1 "input-board_CDSOD323-boardcomputer" 0 150 50 H V C CNN
+F2 "Diode_SMD:D_SOD-323" 0 150 50 H I C CNN
+F3 "" 0 150 50 H I C CNN
+DRAW
+P 2 0 1 10 0 -50 -50 -100 N
+P 2 0 1 10 0 50 50 100 N
+P 2 1 1 10 0 50 0 -50 N
+P 2 1 1 0 100 0 0 0 N
+P 4 1 1 10 100 50 100 -50 0 0 100 50 N
+X K 1 -100 0 100 R 50 0 1 1 P
+X A 2 200 0 100 L 50 0 1 1 P
 ENDDRAW
 ENDDEF
 #
