@@ -2136,7 +2136,7 @@
     (pin "1" (uuid a9616fd4-32cf-49ea-82c5-8c5e7d395b39))
   )
 
-  (symbol (lib_id "Device:LED") (at 77.47 55.88 90)
+  (symbol (lib_id "Device:LED") (at 77.47 55.88 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f74adcd)
     (property "Reference" "D29" (id 0) (at 83.947 56.0578 0)
@@ -2156,7 +2156,7 @@
     (pin "2" (uuid 6983a7fc-35a9-4eec-bb74-2323b7520167))
   )
 
-  (symbol (lib_id "Device:LED") (at 86.36 55.88 90)
+  (symbol (lib_id "Device:LED") (at 86.36 55.88 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f74ba8f)
     (property "Reference" "D31" (id 0) (at 92.837 56.0578 0)
@@ -2176,7 +2176,7 @@
     (pin "2" (uuid 4460f82a-1e60-4d48-ae77-742a430a4ecd))
   )
 
-  (symbol (lib_id "Device:LED") (at 95.25 55.88 90)
+  (symbol (lib_id "Device:LED") (at 95.25 55.88 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f74bcb1)
     (property "Reference" "D33" (id 0) (at 101.727 56.0578 0)
@@ -2522,7 +2522,7 @@
     (pin "2" (uuid 08af9046-e1f7-4e79-9df5-9c7cf629fd8d))
   )
 
-  (symbol (lib_id "Device:LED") (at 77.47 101.6 90)
+  (symbol (lib_id "Device:LED") (at 77.47 101.6 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f76dd0e)
     (property "Reference" "D30" (id 0) (at 83.947 101.7778 0)
@@ -2542,7 +2542,7 @@
     (pin "2" (uuid 7e60de6a-8a8a-4fe2-b610-aa725181712b))
   )
 
-  (symbol (lib_id "Device:LED") (at 86.36 101.6 90)
+  (symbol (lib_id "Device:LED") (at 86.36 101.6 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f76e210)
     (property "Reference" "D32" (id 0) (at 92.837 101.7778 0)
@@ -2562,7 +2562,7 @@
     (pin "2" (uuid 367be1bc-7c57-45db-ab84-e38d00b6d01e))
   )
 
-  (symbol (lib_id "Device:LED") (at 95.25 101.6 90)
+  (symbol (lib_id "Device:LED") (at 95.25 101.6 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f76e43c)
     (property "Reference" "D34" (id 0) (at 101.727 101.7778 0)
@@ -2983,7 +2983,7 @@
     (pin "2" (uuid f8550422-fd4b-41e5-9584-b4f3a484538c))
   )
 
-  (symbol (lib_id "Device:D_Zener") (at 158.75 177.8 270)
+  (symbol (lib_id "Device:D_Zener") (at 158.75 177.8 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f7b04af)
     (property "Reference" "D19" (id 0) (at 160.782 176.6316 90)
@@ -3315,7 +3315,7 @@
     (pin "1" (uuid 35b9bcf2-d140-4684-b548-77eabb509a2f))
   )
 
-  (symbol (lib_id "Device:R") (at 106.68 135.89 0)
+  (symbol (lib_id "Device:R") (at 106.68 135.89 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000604c8c5a)
     (property "Reference" "R82" (id 0) (at 109.22 134.62 90))
@@ -3333,7 +3333,7 @@
     (pin "2" (uuid 7e337972-ac00-4d75-a8a7-ccb92f14a23f))
   )
 
-  (symbol (lib_id "power:+3.3V") (at 106.68 132.08 0)
+  (symbol (lib_id "power:+3.3V") (at 106.68 132.08 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000604c8c60)
     (property "Reference" "#PWR015" (id 0) (at 106.68 135.89 0)
@@ -3349,7 +3349,7 @@
     (pin "1" (uuid 57cf16bc-ee66-4bfa-ac95-8c0134e5d218))
   )
 
-  (symbol (lib_id "input-board:CDSOD323-boardcomputer") (at 97.79 142.24 270)
+  (symbol (lib_id "input-board:CDSOD323-boardcomputer") (at 97.79 142.24 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000604c8c6f)
     (property "Reference" "D12" (id 0) (at 100.33 146.05 90)
@@ -3371,7 +3371,7 @@
     (pin "2" (uuid 3dfda617-5f32-441f-b084-963be5408bae))
   )
 
-  (symbol (lib_id "Device:C") (at 91.44 143.51 0)
+  (symbol (lib_id "Device:C") (at 91.44 143.51 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000604c8c7d)
     (property "Reference" "C84" (id 0) (at 82.55 142.24 0)
