@@ -5492,7 +5492,7 @@
       (reference "D12") (unit 1) (value "PESD15VL2BT,215") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-00005f74b195/00000000-0000-0000-0000-00005f7aafc5"
-      (reference "D13") (unit 1) (value "B5819W") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D13") (unit 1) (value "SS36-E3/57T") (footprint "Diode_SMD:D_SMC")
     )
     (path "/00000000-0000-0000-0000-00005f74b195/00000000-0000-0000-0000-00005f7b04af"
       (reference "D14") (unit 1) (value "15V C78409") (footprint "Diode_SMD:D_SMB")
