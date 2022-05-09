@@ -437,20 +437,26 @@
         )
       )
     )
-    (symbol "Device:D_TVS_x2_AAC" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "Device:D_TVS_Dual_AAC" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (id 0) (at 0 4.445 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "Device_D_TVS_x2_AAC" (id 1) (at 0 2.54 0)
+      (property "Value" "D_TVS_Dual_AAC" (id 1) (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (id 2) (at -3.81 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "" (id 3) (at -3.81 0 0)
+      (property "Datasheet" "~" (id 3) (at -3.81 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "D_TVS_x2_AAC_0_0"
+      (property "ki_keywords" "diode TVS thyrector" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Bidirectional dual transient-voltage-suppression diode, center on pin 3" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "D_TVS_Dual_AAC_0_0"
         (polyline
           (pts
             (xy 0 -1.27)
@@ -460,7 +466,7 @@
           (fill (type none))
         )
       )
-      (symbol "D_TVS_x2_AAC_0_1"
+      (symbol "D_TVS_Dual_AAC_0_1"
         (polyline
           (pts
             (xy -6.35 0)
@@ -516,7 +522,7 @@
           (fill (type outline))
         )
       )
-      (symbol "D_TVS_x2_AAC_1_1"
+      (symbol "D_TVS_Dual_AAC_1_1"
         (pin passive line (at -8.89 0 0) (length 2.54)
           (name "A1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -1165,6 +1171,7 @@
       )
     )
   )
+
 
   (junction (at 148.59 167.64) (diameter 0) (color 0 0 0 0)
     (uuid 0f2fcce4-881b-42e3-9f48-f5d0315a089d)
@@ -1851,7 +1858,7 @@
     (pin "2" (uuid 4f2205ef-9a82-4811-ab2e-a905ce4add0f))
   )
 
-  (symbol (lib_id "Device:D_TVS_x2_AAC") (at 125.73 149.86 0) (unit 1)
+  (symbol (lib_id "Device:D_TVS_Dual_AAC") (at 125.73 149.86 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f79e74d)
     (property "Reference" "D12" (id 0) (at 125.73 144.3482 0))

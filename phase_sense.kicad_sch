@@ -56,26 +56,32 @@
         )
       )
     )
-    (symbol "Device:Opamp_Dual_Generic" (in_bom yes) (on_board yes)
+    (symbol "Device:Opamp_Dual" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 5.08 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "Device_Opamp_Dual_Generic" (id 1) (at 0 -5.08 0)
+      (property "Value" "Opamp_Dual" (id 1) (at 0 -5.08 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Footprint" "" (id 2) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_locked" "" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* MSOP*3x3mm*P0.65mm* SSOP*2.95x2.8mm*P0.65mm* TSSOP*3x3mm*P0.65mm* VSSOP*P0.5mm* TO?99*" (id 5) (at 0 0 0)
+      (property "ki_keywords" "dual opamp" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Opamp_Dual_Generic_1_1"
+      (property "ki_description" "Dual operational amplifier" (id 6) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* MSOP*3x3mm*P0.65mm* SSOP*2.95x2.8mm*P0.65mm* TSSOP*3x3mm*P0.65mm* VSSOP*P0.5mm* TO?99*" (id 7) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Opamp_Dual_1_1"
         (polyline
           (pts
             (xy -5.08 5.08)
@@ -99,7 +105,7 @@
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "Opamp_Dual_Generic_2_1"
+      (symbol "Opamp_Dual_2_1"
         (polyline
           (pts
             (xy -5.08 5.08)
@@ -123,7 +129,7 @@
           (number "7" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "Opamp_Dual_Generic_3_1"
+      (symbol "Opamp_Dual_3_1"
         (pin power_in line (at -2.54 -7.62 90) (length 3.81)
           (name "V-" (effects (font (size 1.27 1.27))))
           (number "4" (effects (font (size 1.27 1.27))))
@@ -656,7 +662,7 @@
     (pin "2" (uuid 14f7ee68-8fdc-4ee9-b348-87a1466a2650))
   )
 
-  (symbol (lib_id "Device:Opamp_Dual_Generic") (at 156.21 44.45 0) (unit 1)
+  (symbol (lib_id "Device:Opamp_Dual") (at 156.21 44.45 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f7cbe46)
     (property "Reference" "U9" (id 0) (at 156.21 37.465 0))
@@ -788,7 +794,7 @@
     (pin "2" (uuid da1f7708-68af-4ac9-a7cc-35a9f55be0ab))
   )
 
-  (symbol (lib_id "Device:Opamp_Dual_Generic") (at 193.04 87.63 0) (unit 3)
+  (symbol (lib_id "Device:Opamp_Dual") (at 193.04 87.63 0) (unit 3)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f7df60a)
     (property "Reference" "U9" (id 0) (at 191.9732 86.4616 0)
@@ -850,7 +856,7 @@
     (pin "2" (uuid 6793978e-6e66-4218-bdf2-59d2d54b83c7))
   )
 
-  (symbol (lib_id "Device:Opamp_Dual_Generic") (at 156.21 87.63 0) (unit 2)
+  (symbol (lib_id "Device:Opamp_Dual") (at 156.21 87.63 0) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f7e240a)
     (property "Reference" "U9" (id 0) (at 156.21 80.645 0))
