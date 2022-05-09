@@ -1,5 +1,3 @@
 (sym_lib_table
-  (lib (name Bobbycontroller)(type Legacy)(uri ${KIPRJMOD}/Bobbycontroller.lib)(options "")(descr ""))
-  (lib (name input-board)(type Legacy)(uri X:/bobbycar/input-board/input-board.lib)(options "")(descr ""))
-  (lib (name Bobbycontroller-rescue)(type Legacy)(uri ${KIPRJMOD}/Bobbycontroller-rescue.lib)(options "")(descr ""))
+  (lib (name "Bobbycontroller")(type "KiCad")(uri "${KIPRJMOD}/Bobbycontroller.kicad_sym")(options "")(descr ""))
 )
