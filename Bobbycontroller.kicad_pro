@@ -483,6 +483,22 @@
     [
       "2c1c175e-1623-474e-a73d-24a32706a36b",
       "Hall Right"
+    ],
+    [
+      "c4fca367-fbd7-47dd-a8fa-1747515a8c08",
+      "ESP32"
+    ],
+    [
+      "63f86c73-c37d-40ff-a11b-ab20559ddf65",
+      "CAN TRX"
+    ],
+    [
+      "16f5dea7-600f-43bb-999d-829645e3afa9",
+      "CAN Termination"
+    ],
+    [
+      "49d55da1-f2eb-4f47-a0fa-7df8e4978d26",
+      "CAN TRX1"
     ]
   ],
   "text_variables": {}
