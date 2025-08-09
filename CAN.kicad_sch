@@ -1,114 +1,289 @@
-(kicad_sch (version 20211123) (generator eeschema)
-
-  (uuid 45fc93ca-f8ba-48a8-9189-1c9886475cd3)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-  (junction (at 143.51 93.98) (diameter 0) (color 0 0 0 0)
-    (uuid 4a3e8c39-ff8b-4fa8-bc63-1d5ab57a341c)
-  )
-  (junction (at 149.86 88.9) (diameter 0) (color 0 0 0 0)
-    (uuid f364db76-8690-4704-bee4-ff95e5384444)
-  )
-
-  (wire (pts (xy 133.35 88.9) (xy 149.86 88.9))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 1be7abb0-f732-4c81-9967-68ae6ecd46ed)
-  )
-  (wire (pts (xy 143.51 78.74) (xy 143.51 93.98))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 4298b801-6d3a-4f60-8e7b-f698ea88bd47)
-  )
-  (wire (pts (xy 104.14 93.98) (xy 113.03 93.98))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 6992f5af-db0f-43b4-8f89-38ce7cd463be)
-  )
-  (wire (pts (xy 133.35 93.98) (xy 143.51 93.98))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 802bd717-75a4-4efc-bdc3-ab512c6bce65)
-  )
-  (wire (pts (xy 149.86 78.74) (xy 149.86 88.9))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 98c43fd0-831e-4339-9f8c-b9f69dd21c6d)
-  )
-  (wire (pts (xy 143.51 93.98) (xy 157.48 93.98))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid a80b3ecc-ec4c-4419-b52e-8b4bfbfb659d)
-  )
-  (wire (pts (xy 104.14 88.9) (xy 113.03 88.9))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid b93a9218-bf6a-46a2-9d26-49d74834e8c0)
-  )
-  (wire (pts (xy 149.86 88.9) (xy 157.48 88.9))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid f258b037-fa50-40ea-97b7-082b7fe03a48)
-  )
-
-  (hierarchical_label "CAN_RX" (shape output) (at 104.14 88.9 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 45ff3247-9321-4e8a-98e4-13d724b41608)
-  )
-  (hierarchical_label "CANH" (shape bidirectional) (at 157.48 88.9 0)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 7410568a-af90-4a4e-a67d-5fd1863e0d95)
-  )
-  (hierarchical_label "CANL" (shape bidirectional) (at 157.48 93.98 0)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid baaf14d0-0c5c-4bf0-82d7-5ee71082500d)
-  )
-  (hierarchical_label "CAN_TX" (shape input) (at 104.14 93.98 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid ccfc4e6b-2dfc-49d8-837e-010cd65a0c4b)
-  )
-
-  (sheet (at 139.7 69.85) (size 13.97 8.89)
-    (stroke (width 0.1524) (type solid) (color 132 0 132 1))
-    (fill (color 255 255 255 0.0000))
-    (uuid 16f5dea7-600f-43bb-999d-829645e3afa9)
-    (property "Sheet name" "CAN Termination" (id 0) (at 154.94 72.39 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "can_termination.kicad_sch" (id 1) (at 154.94 76.2 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "CANH" bidirectional (at 149.86 78.74 270)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid d91b2df6-0280-4017-ac22-77dee688b687)
-    )
-    (pin "CANL" bidirectional (at 143.51 78.74 270)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 49723351-ce98-40a0-bc19-76af265a5c3d)
-    )
-  )
-
-  (sheet (at 113.03 86.36) (size 20.32 10.16) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 132 0 132 1))
-    (fill (color 255 255 255 0.0000))
-    (uuid 63f86c73-c37d-40ff-a11b-ab20559ddf65)
-    (property "Sheet name" "CAN TRX" (id 0) (at 113.03 85.6484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "CAN_TRX.kicad_sch" (id 1) (at 113.03 97.1046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "CANH" bidirectional (at 133.35 88.9 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid fd4694e7-1579-4516-a1c0-9ef421096042)
-    )
-    (pin "CANL" bidirectional (at 133.35 93.98 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 3dd7ae26-daa7-47ea-913b-b62de4cc13d9)
-    )
-    (pin "CAN_RX" output (at 113.03 88.9 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 0d5a8acd-8b64-4da9-9fd9-7da663bc2cfd)
-    )
-    (pin "CAN_TX" input (at 113.03 93.98 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 264a52dd-4b01-4a94-8654-58b9c31a53c9)
-    )
-  )
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "45fc93ca-f8ba-48a8-9189-1c9886475cd3")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 143.51 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a3e8c39-ff8b-4fa8-bc63-1d5ab57a341c")
+	)
+	(junction
+		(at 149.86 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f364db76-8690-4704-bee4-ff95e5384444")
+	)
+	(wire
+		(pts
+			(xy 133.35 88.9) (xy 149.86 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be7abb0-f732-4c81-9967-68ae6ecd46ed")
+	)
+	(wire
+		(pts
+			(xy 143.51 78.74) (xy 143.51 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4298b801-6d3a-4f60-8e7b-f698ea88bd47")
+	)
+	(wire
+		(pts
+			(xy 104.14 93.98) (xy 113.03 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6992f5af-db0f-43b4-8f89-38ce7cd463be")
+	)
+	(wire
+		(pts
+			(xy 133.35 93.98) (xy 143.51 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "802bd717-75a4-4efc-bdc3-ab512c6bce65")
+	)
+	(wire
+		(pts
+			(xy 149.86 78.74) (xy 149.86 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c43fd0-831e-4339-9f8c-b9f69dd21c6d")
+	)
+	(wire
+		(pts
+			(xy 143.51 93.98) (xy 157.48 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a80b3ecc-ec4c-4419-b52e-8b4bfbfb659d")
+	)
+	(wire
+		(pts
+			(xy 104.14 88.9) (xy 113.03 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b93a9218-bf6a-46a2-9d26-49d74834e8c0")
+	)
+	(wire
+		(pts
+			(xy 149.86 88.9) (xy 157.48 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f258b037-fa50-40ea-97b7-082b7fe03a48")
+	)
+	(hierarchical_label "CAN_RX"
+		(shape output)
+		(at 104.14 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45ff3247-9321-4e8a-98e4-13d724b41608")
+	)
+	(hierarchical_label "CANH"
+		(shape bidirectional)
+		(at 157.48 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7410568a-af90-4a4e-a67d-5fd1863e0d95")
+	)
+	(hierarchical_label "CANL"
+		(shape bidirectional)
+		(at 157.48 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "baaf14d0-0c5c-4bf0-82d7-5ee71082500d")
+	)
+	(hierarchical_label "CAN_TX"
+		(shape input)
+		(at 104.14 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ccfc4e6b-2dfc-49d8-837e-010cd65a0c4b")
+	)
+	(sheet
+		(at 139.7 69.85)
+		(size 13.97 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "16f5dea7-600f-43bb-999d-829645e3afa9")
+		(property "Sheetname" "CAN Termination"
+			(at 154.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can_termination.kicad_sch"
+			(at 154.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CANH" bidirectional
+			(at 149.86 78.74 270)
+			(uuid "d91b2df6-0280-4017-ac22-77dee688b687")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CANL" bidirectional
+			(at 143.51 78.74 270)
+			(uuid "49723351-ce98-40a0-bc19-76af265a5c3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Bobbycontroller"
+				(path "/d7e4abd8-69f5-4706-b12e-898194e5bf56/00000000-0000-0000-0000-00005f737f83"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 86.36)
+		(size 20.32 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "63f86c73-c37d-40ff-a11b-ab20559ddf65")
+		(property "Sheetname" "CAN TRX"
+			(at 113.03 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN_TRX.kicad_sch"
+			(at 113.03 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CANH" bidirectional
+			(at 133.35 88.9 0)
+			(uuid "fd4694e7-1579-4516-a1c0-9ef421096042")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CANL" bidirectional
+			(at 133.35 93.98 0)
+			(uuid "3dd7ae26-daa7-47ea-913b-b62de4cc13d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_RX" output
+			(at 113.03 88.9 180)
+			(uuid "0d5a8acd-8b64-4da9-9fd9-7da663bc2cfd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 113.03 93.98 180)
+			(uuid "264a52dd-4b01-4a94-8654-58b9c31a53c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Bobbycontroller"
+				(path "/d7e4abd8-69f5-4706-b12e-898194e5bf56/00000000-0000-0000-0000-00005f737f83"
+					(page "18")
+				)
+			)
+		)
+	)
 )

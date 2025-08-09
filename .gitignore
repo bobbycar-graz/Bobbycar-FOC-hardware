@@ -12,7 +12,6 @@ _autosave-*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
-fp-info-cache
 \#auto_saved_files#
 
 # User-specific settings
