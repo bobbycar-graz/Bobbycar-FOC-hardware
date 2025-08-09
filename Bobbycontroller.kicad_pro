@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [],
@@ -543,7 +543,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -552,13 +552,13 @@
           "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -567,7 +567,7 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -597,10 +597,10 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "place",
           "name": "place",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -690,56 +690,16 @@
       "Root"
     ],
     [
-      "00000000-0000-0000-0000-00005f7e81d5",
-      "L_MTR_PH_SENSE"
-    ],
-    [
-      "00000000-0000-0000-0000-00005f7c96f7",
-      "R_MTR_PH_SENSE"
+      "00000000-0000-0000-0000-00005f737f83",
+      "CAN"
     ],
     [
       "00000000-0000-0000-0000-00005f74b195",
       "CONNECTORS"
     ],
     [
-      "d397213a-2ef7-4128-a345-f5f93468f4e9",
-      "Hall Left"
-    ],
-    [
-      "2c1c175e-1623-474e-a73d-24a32706a36b",
-      "Hall Right"
-    ],
-    [
-      "00000000-0000-0000-0000-00005f737f83",
-      "CAN"
-    ],
-    [
-      "63f86c73-c37d-40ff-a11b-ab20559ddf65",
-      "CAN TRX"
-    ],
-    [
-      "16f5dea7-600f-43bb-999d-829645e3afa9",
-      "CAN Termination"
-    ],
-    [
-      "00000000-0000-0000-0000-00005f7395da",
-      "SUPPLIES"
-    ],
-    [
       "00000000-0000-0000-0000-00005f7128fa",
       "CURRENT_SENSE"
-    ],
-    [
-      "c4fca367-fbd7-47dd-a8fa-1747515a8c08",
-      "ESP32"
-    ],
-    [
-      "49d55da1-f2eb-4f47-a0fa-7df8e4978d26",
-      "CAN TRX1"
-    ],
-    [
-      "00000000-0000-0000-0000-00005f75358d",
-      "MCU"
     ],
     [
       "00000000-0000-0000-0000-00005f7ecc6c",
@@ -754,6 +714,14 @@
       "L_MTR_PHC"
     ],
     [
+      "00000000-0000-0000-0000-00005f7e81d5",
+      "L_MTR_PH_SENSE"
+    ],
+    [
+      "00000000-0000-0000-0000-00005f75358d",
+      "MCU"
+    ],
+    [
       "00000000-0000-0000-0000-00005f7a2640",
       "R_MTR_PHA"
     ],
@@ -764,6 +732,38 @@
     [
       "00000000-0000-0000-0000-00005f7a4e71",
       "R_MTR_PHC"
+    ],
+    [
+      "00000000-0000-0000-0000-00005f7c96f7",
+      "R_MTR_PH_SENSE"
+    ],
+    [
+      "00000000-0000-0000-0000-00005f7395da",
+      "SUPPLIES"
+    ],
+    [
+      "d397213a-2ef7-4128-a345-f5f93468f4e9",
+      "Hall Left"
+    ],
+    [
+      "2c1c175e-1623-474e-a73d-24a32706a36b",
+      "Hall Right"
+    ],
+    [
+      "c4fca367-fbd7-47dd-a8fa-1747515a8c08",
+      "ESP32"
+    ],
+    [
+      "63f86c73-c37d-40ff-a11b-ab20559ddf65",
+      "CAN TRX"
+    ],
+    [
+      "16f5dea7-600f-43bb-999d-829645e3afa9",
+      "CAN Termination"
+    ],
+    [
+      "49d55da1-f2eb-4f47-a0fa-7df8e4978d26",
+      "CAN TRX1"
     ]
   ],
   "text_variables": {}

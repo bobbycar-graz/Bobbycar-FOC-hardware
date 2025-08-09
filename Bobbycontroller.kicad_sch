@@ -3775,6 +3775,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 262.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c924907-a0dd-4f4f-9d03-15590594dfd4")
 		)
@@ -3851,6 +3860,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 262.89 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 262.89 45.72 0)
 			(effects
 				(font
@@ -4001,6 +4019,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 248.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 248.92 26.67 0)
 			(effects
 				(font
@@ -4199,7 +4226,7 @@
 				)
 			)
 		)
-		(property "place" "hand"
+		(property "place" ""
 			(at 248.92 129.54 0)
 			(effects
 				(font
@@ -4209,6 +4236,15 @@
 			)
 		)
 		(property "LCSC" "C443080"
+			(at 248.92 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 248.92 129.54 0)
 			(effects
 				(font
@@ -4285,7 +4321,7 @@
 				)
 			)
 		)
-		(property "place" "hand"
+		(property "place" ""
 			(at 256.54 129.54 0)
 			(effects
 				(font
@@ -4295,6 +4331,15 @@
 			)
 		)
 		(property "LCSC" "C443080"
+			(at 256.54 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 256.54 129.54 0)
 			(effects
 				(font
@@ -4371,7 +4416,7 @@
 				)
 			)
 		)
-		(property "place" "hand"
+		(property "place" ""
 			(at 262.89 129.54 0)
 			(effects
 				(font
@@ -4381,6 +4426,15 @@
 			)
 		)
 		(property "LCSC" "C443080"
+			(at 262.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 262.89 129.54 0)
 			(effects
 				(font
@@ -4457,7 +4511,7 @@
 				)
 			)
 		)
-		(property "place" "hand"
+		(property "place" ""
 			(at 269.24 129.54 0)
 			(effects
 				(font
@@ -4467,6 +4521,15 @@
 			)
 		)
 		(property "LCSC" "C443080"
+			(at 269.24 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 269.24 129.54 0)
 			(effects
 				(font
@@ -4625,6 +4688,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 215.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "116add07-28e3-4d01-9c52-9e205f7b0225")
 		)
@@ -4703,6 +4775,15 @@
 			)
 		)
 		(property "LCSC" "C270946"
+			(at 205.74 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 205.74 67.31 0)
 			(effects
 				(font
@@ -4861,6 +4942,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 215.9 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fbcce126-0f55-40e1-9870-4b8aaf037f7f")
 		)
@@ -4939,6 +5029,15 @@
 			)
 		)
 		(property "LCSC" "C270946"
+			(at 205.74 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 205.74 157.48 0)
 			(effects
 				(font
@@ -5034,6 +5133,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 231.14 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7254a980-82c0-4f7c-b23e-b064644bbaa9")
 		)
@@ -5110,6 +5218,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 231.14 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 231.14 38.1 0)
 			(effects
 				(font
@@ -5202,6 +5319,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 231.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "159582f1-4072-4712-b89b-0095e09d1ee6")
 		)
@@ -5278,6 +5404,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 231.14 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 231.14 125.73 0)
 			(effects
 				(font
@@ -5370,6 +5505,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 231.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25680635-3dca-4a9e-b590-3de2ea2cb777")
 		)
@@ -5446,6 +5590,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 231.14 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 231.14 130.81 0)
 			(effects
 				(font
@@ -5537,6 +5690,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 264.16 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/d7e4abd8-69f5-4706-b12e-898194e5bf56"
@@ -5609,6 +5771,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 264.16 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 264.16 21.59 0)
 			(effects
 				(font
@@ -5697,6 +5868,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 264.16 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/d7e4abd8-69f5-4706-b12e-898194e5bf56"
@@ -5769,6 +5949,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 264.16 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 264.16 29.21 0)
 			(effects
 				(font
@@ -6113,6 +6302,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 259.08 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "26d609ee-fda2-4abb-b3a6-315c018021d4")
 		)
@@ -6196,6 +6394,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 265.43 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb64afad-a905-4f4b-98a2-d21a64bd12f3")
 		)
@@ -6213,9 +6420,9 @@
 		(at 246.38 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f90978b")
 		(property "Reference" "C1"
 			(at 249.301 143.6116 0)
@@ -6279,6 +6486,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 246.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4fdb1ed8-6342-4ede-8c2e-551e4eacee8a")
 		)
@@ -6299,9 +6515,9 @@
 		(at 251.46 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f90a4b0")
 		(property "Reference" "C4"
 			(at 254.381 143.6116 0)
@@ -6365,6 +6581,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 251.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a14e2ef-2f4c-459e-a66b-27fc2b0f2442")
 		)
@@ -6385,9 +6610,9 @@
 		(at 256.54 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f90a5f5")
 		(property "Reference" "C7"
 			(at 259.461 143.6116 0)
@@ -6451,6 +6676,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 256.54 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f6aea316-1ec8-43f2-b315-4fba60d0c36b")
 		)
@@ -6471,9 +6705,9 @@
 		(at 261.62 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f90a735")
 		(property "Reference" "C9"
 			(at 264.541 143.6116 0)
@@ -6537,6 +6771,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 261.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28dee780-406b-4709-b924-7d70e1f1be1b")
 		)
@@ -6557,9 +6800,9 @@
 		(at 266.7 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f90a9f9")
 		(property "Reference" "C12"
 			(at 269.621 143.6116 0)
@@ -6623,6 +6866,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 266.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9ffd654-80b5-40d1-9fb5-89cc5b292833")
 		)
@@ -6643,9 +6895,9 @@
 		(at 271.78 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f90abb1")
 		(property "Reference" "C15"
 			(at 274.701 143.6116 0)
@@ -6709,6 +6961,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 271.78 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0a5367c-36b9-40f6-9463-91fad71b1924")
 		)
@@ -6729,9 +6990,9 @@
 		(at 276.86 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f90ae21")
 		(property "Reference" "C17"
 			(at 279.781 143.6116 0)
@@ -6795,6 +7056,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 276.86 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4e221f5f-e6f6-48ec-a138-4c93bdae7e92")
 		)
@@ -6815,9 +7085,9 @@
 		(at 246.38 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f9101fb")
 		(property "Reference" "C2"
 			(at 249.301 153.7716 0)
@@ -6881,6 +7151,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 246.38 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "caacacee-6a11-4f77-adb3-e35a6e2a5f8e")
 		)
@@ -6901,9 +7180,9 @@
 		(at 251.46 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f910205")
 		(property "Reference" "C5"
 			(at 254.381 153.7716 0)
@@ -6967,6 +7246,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 251.46 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e9373cc3-0783-49e9-adae-ed13c20c94f2")
 		)
@@ -6987,9 +7275,9 @@
 		(at 256.54 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f91020f")
 		(property "Reference" "C8"
 			(at 259.461 153.7716 0)
@@ -7053,6 +7341,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 256.54 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c6f1a98-ee6d-43b5-9917-457c8c0813ac")
 		)
@@ -7073,9 +7370,9 @@
 		(at 261.62 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f910219")
 		(property "Reference" "C10"
 			(at 264.541 153.7716 0)
@@ -7139,6 +7436,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 261.62 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "469853b8-c5ea-4e1f-a8b2-98343d345b39")
 		)
@@ -7159,9 +7465,9 @@
 		(at 266.7 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f910223")
 		(property "Reference" "C13"
 			(at 269.621 153.7716 0)
@@ -7225,6 +7531,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 266.7 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb74318f-e24d-4843-8f77-365dbe8197a7")
 		)
@@ -7245,9 +7560,9 @@
 		(at 271.78 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f91022d")
 		(property "Reference" "C16"
 			(at 274.701 153.7716 0)
@@ -7311,6 +7626,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 271.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "33de6699-b0d4-4991-acc8-05b3749c55c6")
 		)
@@ -7331,9 +7655,9 @@
 		(at 276.86 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f910237")
 		(property "Reference" "C18"
 			(at 279.781 153.7716 0)
@@ -7389,6 +7713,15 @@
 			)
 		)
 		(property "LCSC" "C577211"
+			(at 276.86 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 276.86 154.94 0)
 			(effects
 				(font

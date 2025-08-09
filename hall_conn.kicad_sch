@@ -1781,6 +1781,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c5b784eb-ca98-4b28-bf17-44165b6286e0")
 		)
@@ -1863,6 +1872,15 @@
 			)
 		)
 		(property "LCSC" "C14663"
+			(at 162.56 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 162.56 96.52 0)
 			(effects
 				(font
@@ -1961,6 +1979,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 130.81 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a48630c4-b8ca-4b18-b9b6-a09b02781ca0")
 		)
@@ -2050,6 +2077,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 184.15 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bcfa5c4b-8e29-4829-bbc0-906e575c1cfb")
 		)
@@ -2131,6 +2167,15 @@
 			)
 		)
 		(property "LCSC" "C2290"
+			(at 171.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 171.45 64.77 0)
 			(effects
 				(font
@@ -2295,6 +2340,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 199.39 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9b5f9b8-bfb6-4ad0-b704-7c8bdf62dd11")
 		)
@@ -2451,6 +2505,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 180.34 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ef768be-ada7-409d-bf98-f6b90fa0e3f0")
 		)
@@ -2531,6 +2594,15 @@
 			)
 		)
 		(property "LCSC" "C22978"
+			(at 205.74 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 205.74 91.44 90)
 			(effects
 				(font
@@ -2627,6 +2699,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 167.64 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef2e336a-baac-4084-abc6-08d16b7bfa5f")
 		)
@@ -2715,6 +2796,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 193.04 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f98db57-9bd8-4466-b9cf-bed601165842")
 		)
@@ -2795,6 +2885,15 @@
 			)
 		)
 		(property "LCSC" "C4190"
+			(at 171.45 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 171.45 72.39 90)
 			(effects
 				(font
@@ -2893,6 +2992,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a31ae1db-5839-4be6-b742-3a5c96e99737")
 		)
@@ -2974,6 +3082,15 @@
 			)
 		)
 		(property "LCSC" "C2290"
+			(at 158.75 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 158.75 64.77 0)
 			(effects
 				(font
@@ -3072,6 +3189,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 130.81 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "636eb703-46c5-4439-acf7-0df416544357")
 		)
@@ -3152,6 +3278,15 @@
 			)
 		)
 		(property "LCSC" "C4190"
+			(at 184.15 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 184.15 72.39 90)
 			(effects
 				(font
@@ -3248,6 +3383,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 154.94 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f8334b3-66a2-4cd7-89a0-27f65e9a2ef7")
 		)
@@ -3328,6 +3472,15 @@
 			)
 		)
 		(property "LCSC" "C4190"
+			(at 158.75 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 158.75 72.39 90)
 			(effects
 				(font

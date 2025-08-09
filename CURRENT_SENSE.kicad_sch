@@ -1935,6 +1935,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 157.48 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b1cb39c-c4de-4376-955e-d8ad01d75818")
 		)
@@ -2013,6 +2022,15 @@
 			)
 		)
 		(property "LCSC" "C22961"
+			(at 120.65 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 120.65 115.57 0)
 			(effects
 				(font
@@ -2171,6 +2189,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 163.83 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af9b5ea2-280a-41cd-8516-afe3aa7e7b04")
 		)
@@ -2267,7 +2294,7 @@
 				)
 			)
 		)
-		(property "Value" "3PEAK TP09-SR"
+		(property "Value" "TLV9362IDR"
 			(at 185.42 119.9896 0)
 			(effects
 				(font
@@ -2311,7 +2338,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81662"
+		(property "LCSC" "C4367884"
+			(at 185.42 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 185.42 127 0)
 			(effects
 				(font
@@ -2414,6 +2450,15 @@
 			)
 		)
 		(property "LCSC" "C25804"
+			(at 105.41 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 105.41 127 90)
 			(effects
 				(font
@@ -2582,7 +2627,7 @@
 				)
 			)
 		)
-		(property "Value" "3PEAK TP09-SR"
+		(property "Value" "TLV9362IDR"
 			(at 130.81 117.4496 0)
 			(effects
 				(font
@@ -2626,7 +2671,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81662"
+		(property "LCSC" "C4367884"
+			(at 130.81 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 130.81 124.46 0)
 			(effects
 				(font
@@ -2686,7 +2740,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3PEAK TP09-SR"
+		(property "Value" "TLV9362IDR"
 			(at 227.5332 126.873 0)
 			(effects
 				(font
@@ -2730,7 +2784,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81662"
+		(property "LCSC" "C4367884"
+			(at 228.6 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 228.6 125.73 0)
 			(effects
 				(font
@@ -2843,6 +2906,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 120.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "46d6941b-4918-4cc6-8042-5a8e3c7dc730")
 		)
@@ -2921,6 +2993,15 @@
 			)
 		)
 		(property "LCSC" "C81598"
+			(at 114.2474 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 114.2474 118.11 90)
 			(effects
 				(font
@@ -3013,6 +3094,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 157.48 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "29693a9f-a31d-42eb-a1b8-2aaf9abfd09a")
 		)
@@ -3091,6 +3181,15 @@
 			)
 		)
 		(property "LCSC" "C14663"
+			(at 163.83 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 163.83 77.47 0)
 			(effects
 				(font
@@ -3260,7 +3359,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3PEAK TP09-SR"
+		(property "Value" "TLV9362IDR"
 			(at 227.5332 76.073 0)
 			(effects
 				(font
@@ -3304,7 +3403,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81662"
+		(property "LCSC" "C4367884"
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 228.6 74.93 0)
 			(effects
 				(font
@@ -3415,6 +3523,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 146.05 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78b0e2e3-b7e4-45f3-8118-8c1ec1de5429")
 		)
@@ -3493,6 +3610,15 @@
 			)
 		)
 		(property "LCSC" "C81598"
+			(at 114.3 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 114.3 80.01 90)
 			(effects
 				(font
@@ -3661,7 +3787,7 @@
 				)
 			)
 		)
-		(property "Value" "3PEAK TP09-SR"
+		(property "Value" "TLV9362IDR"
 			(at 130.81 66.6496 0)
 			(effects
 				(font
@@ -3705,7 +3831,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81662"
+		(property "LCSC" "C4367884"
+			(at 130.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 130.81 73.66 0)
 			(effects
 				(font
@@ -3828,7 +3963,7 @@
 				)
 			)
 		)
-		(property "Value" "3PEAK TP09-SR"
+		(property "Value" "TLV9362IDR"
 			(at 185.42 69.1896 0)
 			(effects
 				(font
@@ -3872,7 +4007,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81662"
+		(property "LCSC" "C4367884"
+			(at 185.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 185.42 76.2 0)
 			(effects
 				(font
@@ -3985,6 +4129,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 222.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5a202a30-74e8-4520-a8f7-14975d36aeb0")
 		)
@@ -4063,6 +4216,15 @@
 			)
 		)
 		(property "LCSC" "C14663"
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 181.61 63.5 0)
 			(effects
 				(font
@@ -4157,6 +4319,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 114.2474 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63aad061-46e0-4418-b6c3-6ea37acdfe80")
 		)
@@ -4243,6 +4414,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 127 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1a888ce-91e9-441f-a241-0933788ed915")
 		)
@@ -4321,6 +4501,15 @@
 			)
 		)
 		(property "LCSC" "C14663"
+			(at 181.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 181.61 114.3 0)
 			(effects
 				(font
@@ -4477,6 +4666,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 105.41 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a2286bff-78c6-4b17-aa0b-79add274f20c")
 		)
@@ -4555,6 +4753,15 @@
 			)
 		)
 		(property "LCSC" "C25803"
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 127 86.36 0)
 			(effects
 				(font
@@ -4711,6 +4918,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 105.41 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d78b8dc6-3505-4e68-bb10-29a26d656336")
 		)
@@ -4859,6 +5075,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 105.41 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ddd3cd4-eedd-4bf4-bac0-3ef6af014a16")
 		)
@@ -4937,6 +5162,15 @@
 			)
 		)
 		(property "LCSC" "C81598"
+			(at 114.3 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 114.3 130.81 90)
 			(effects
 				(font
@@ -5095,6 +5329,15 @@
 				(hide yes)
 			)
 		)
+		(property "alternative" ""
+			(at 222.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f89c9bfb-376e-40fc-aaad-0a9fcaa290b5")
 		)
@@ -5171,6 +5414,15 @@
 			)
 		)
 		(property "LCSC" "C25804"
+			(at 146.05 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alternative" ""
 			(at 146.05 73.66 90)
 			(effects
 				(font
