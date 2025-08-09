@@ -298,7 +298,7 @@
 				)
 			)
 		)
-		(property "Value" "220u25V LKMD0901E221MF"
+		(property "Value" "220u25V"
 			(at 1.75 5.25 90)
 			(layer "F.Fab")
 			(uuid "e0b0947e-ec91-4d8a-8663-5a112b0a8541")
@@ -357,7 +357,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C399576"
+		(property "LCSC" "C106697"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3846,7 +3846,7 @@
 				)
 			)
 		)
-		(property "Value" "220u25V LKMD0901E221MF"
+		(property "Value" "220u25V"
 			(at 1.75 5.25 90)
 			(layer "F.Fab")
 			(uuid "5e755161-24a5-4650-a6e3-9836bf074412")
@@ -3905,7 +3905,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C399576"
+		(property "LCSC" "C106697"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7394,7 +7394,7 @@
 				)
 			)
 		)
-		(property "Value" "220u25V LKMD0901E221MF"
+		(property "Value" "220u25V"
 			(at 1.75 5.25 90)
 			(layer "F.Fab")
 			(uuid "ab8b0540-9c9f-4195-88f5-7bed0b0a8ed6")
@@ -7453,7 +7453,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C399576"
+		(property "LCSC" "C106697"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10942,7 +10942,7 @@
 				)
 			)
 		)
-		(property "Value" "220u25V LKMD0901E221MF"
+		(property "Value" "220u25V"
 			(at 1.75 5.25 90)
 			(layer "F.Fab")
 			(uuid "7db990e4-92e1-4f99-b4d2-435bbec1ba83")
@@ -11001,7 +11001,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C399576"
+		(property "LCSC" "C106697"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40656,7 +40656,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C270946"
+		(property "LCSC" "C46634448"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40893,7 +40893,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C270946"
+		(property "LCSC" "C46634448"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41130,7 +41130,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C270946"
+		(property "LCSC" "C46634448"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41367,7 +41367,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C270946"
+		(property "LCSC" "C46634448"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42993,7 +42993,7 @@
 				)
 			)
 		)
-		(property "Value" "3PEAK TP09-SR"
+		(property "Value" "TLV9362IDR"
 			(at 0 3.4 90)
 			(layer "F.Fab")
 			(uuid "ebe815b7-18d0-4f85-a3fd-baf51bc8a06b")
@@ -43040,7 +43040,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C81662"
+		(property "LCSC" "C4367884"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43067,7 +43067,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* MSOP*3x3mm*P0.65mm* SSOP*2.95x2.8mm*P0.65mm* TSSOP*3x3mm*P0.65mm* VSSOP*P0.5mm* TO?99*")
-		(path "/00000000-0000-0000-0000-00005f7c96f7/00000000-0000-0000-0000-00005f7e240a")
+		(path "/00000000-0000-0000-0000-00005f7c96f7/00000000-0000-0000-0000-00005f7df60a")
 		(sheetname "/R_MTR_PH_SENSE/")
 		(sheetfile "phase_sense.kicad_sch")
 		(attr smd)
@@ -43321,7 +43321,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "3PEAK TP09-SR"
+		(property "Value" "TLV9362IDR"
 			(at 0 3.4 90)
 			(layer "F.Fab")
 			(uuid "1b87e6b2-da8d-48e8-a3fa-8d7a2a151742")
@@ -43368,7 +43368,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C81662"
+		(property "LCSC" "C4367884"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43395,7 +43395,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* MSOP*3x3mm*P0.65mm* SSOP*2.95x2.8mm*P0.65mm* TSSOP*3x3mm*P0.65mm* VSSOP*P0.5mm* TO?99*")
-		(path "/00000000-0000-0000-0000-00005f7e81d5/00000000-0000-0000-0000-00005f7e240a")
+		(path "/00000000-0000-0000-0000-00005f7e81d5/00000000-0000-0000-0000-00005f7df60a")
 		(sheetname "/L_MTR_PH_SENSE/")
 		(sheetfile "phase_sense.kicad_sch")
 		(attr smd)
@@ -49373,7 +49373,7 @@
 				)
 			)
 		)
-		(property "Value" "220u25V LKMD0901E221MF"
+		(property "Value" "220u25V"
 			(at 1.75 5.25 90)
 			(layer "F.Fab")
 			(uuid "9286cf02-1563-41d2-9931-c192c33bab31")
@@ -49432,7 +49432,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C399576"
+		(property "LCSC" "C106697"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -84729,7 +84729,7 @@
 				)
 			)
 		)
-		(property "Value" "220u25V LKMD0901E221MF"
+		(property "Value" "220u25V"
 			(at 1.75 5.25 90)
 			(layer "F.Fab")
 			(uuid "c5565d96-c729-4597-a74f-7f75befcc39d")
@@ -84788,7 +84788,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C399576"
+		(property "LCSC" "C106697"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")

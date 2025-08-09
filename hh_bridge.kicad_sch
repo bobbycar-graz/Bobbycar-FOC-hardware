@@ -3204,7 +3204,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "220u25V LKMD0901E221MF"
+		(property "Value" "220u25V"
 			(at 85.9028 101.473 0)
 			(effects
 				(font
@@ -3257,7 +3257,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C399576"
+		(property "LCSC" "C106697"
 			(at 88.9 100.33 0)
 			(effects
 				(font

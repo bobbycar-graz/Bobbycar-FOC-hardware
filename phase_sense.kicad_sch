@@ -2059,7 +2059,7 @@
 				)
 			)
 		)
-		(property "Value" "3PEAK TP09-SR"
+		(property "Value" "TLV9362IDR"
 			(at 156.21 37.4396 0)
 			(effects
 				(font
@@ -2103,7 +2103,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81662"
+		(property "LCSC" "C4367884"
 			(at 156.21 44.45 0)
 			(effects
 				(font
@@ -2729,7 +2729,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3PEAK TP09-SR"
+		(property "Value" "TLV9362IDR"
 			(at 191.9732 88.773 0)
 			(effects
 				(font
@@ -2773,7 +2773,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81662"
+		(property "LCSC" "C4367884"
 			(at 193.04 87.63 0)
 			(effects
 				(font
@@ -3010,7 +3010,7 @@
 				)
 			)
 		)
-		(property "Value" "3PEAK TP09-SR"
+		(property "Value" "TLV9362IDR"
 			(at 156.21 80.6196 0)
 			(effects
 				(font
@@ -3054,7 +3054,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81662"
+		(property "LCSC" "C4367884"
 			(at 156.21 87.63 0)
 			(effects
 				(font
